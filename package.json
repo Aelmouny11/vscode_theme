@@ -1,21 +1,29 @@
 {
-    "name": "aelmouny11",
-    "displayName": "aelmouny11_theme",
-    "description": "My custom color theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.65.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "aelmouny11_theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/aelmouny11_theme-color-theme.json"
-            }
-        ]
-    }
+	"name": "aelmouny11",
+	"displayName": "aelmouny11_theme",
+	"description": "My custom color theme",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"author": {
+		"name": "aelmouny11",
+		"email": "elmoumny.azddine@gmail.com"
+	},
+	"repository": {
+		"url": "https://github.com/Aelmouny11/vscode_theme",
+		"type": "git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "aelmouny11_theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/aelmouny11_theme-color-theme.json"
+			}
+		]
+	}
 }
